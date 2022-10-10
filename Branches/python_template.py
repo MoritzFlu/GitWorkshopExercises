@@ -10,6 +10,10 @@ def operation(a, b, c, d):
 
 def operation2(a,b):
     return a-b
+
+def operation3(a,b):
+    return a*b
+
 # Execute main operation
 if __name__ == "__main__":
     op_result = operation(varA, varB, varC, varD)
